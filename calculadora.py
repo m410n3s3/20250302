@@ -6,7 +6,7 @@ import cores as cr
 janela = tk.Tk()
 
 janela.title("Calc parte 1")
-janela.geometry("240x320")
+janela.geometry("240x350")
 
 
 
@@ -17,7 +17,7 @@ valor_visor.set("Calculadora Ligada")
 visor_Label = tk.Label(frame_visor, textvariable= valor_visor , width=16, height=2)
 visor_Label.place(x=0,y=0)
 
-frame_botoes = tk.Frame(janela, width = 240, height = 270, bg = cr.CorBranco)
+frame_botoes = tk.Frame(janela, width = 240, height = 300, bg = cr.CorBranco)
 frame_botoes.grid(row = 1, column = 0)
 
 
